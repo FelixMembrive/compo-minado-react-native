@@ -7,7 +7,7 @@ export default props => {
         const columns = row.map((field, c) => {
             return <Field {...field} key={c}
                 onOpen={() => props.onOpenField(r, c)}
-                onSelect={() => onSelectField(r, c)}
+                onSelect={(e) => props.onSelectField(r, c)}
 
             />
         })
