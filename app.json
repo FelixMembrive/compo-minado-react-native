@@ -1,33 +1,40 @@
 {
-  "expo": {
-    "name": "minefield",
-    "slug": "minefield",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "expo": {
+        "name": "minefield",
+        "slug": "minefield",
+        "version": "1.0.0+1",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "userInterfaceStyle": "light",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "versionCode": 2,
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            "package": "com.felixmembrive.minefield"
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "extra": {
+            "eas": {
+                "projectId": "11823442-91bb-49a9-bc54-4e2a4a386c39"
+            }
+        }
     }
-  }
 }
